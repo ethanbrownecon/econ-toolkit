@@ -62,7 +62,7 @@ The best free guides, books and official documentation for each tool, picked for
 | [Stata YouTube channel](https://www.youtube.com/user/statacorp) | Short official videos on menus, graphs and commands | Beginner |
 | [DIME Wiki](https://dimewiki.worldbank.org/) | The World Bank's guide to field research and clean Stata code | Intermediate |
 | [reghdfe](https://scorreia.com/software/reghdfe/) | Documentation for fixed-effects regressions | Intermediate |
-| [estout](https://repec.sowi.unibe.ch/stata/estout/) | Documentation and examples for `esttab` regression tables | Intermediate |
+| [estout](https://github.com/benjann/estout) | Source code and help files for `esttab` regression tables | Intermediate |
 | [Statalist](https://www.statalist.org/) | Forum where Stata users and StataCorp staff answer questions | All levels |
 
 ## R
