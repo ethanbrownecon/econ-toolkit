@@ -86,6 +86,7 @@ nav:
       - "Replication: Drunk driving (RD)": projects/replication-hansen.md
       - "Replication: Stand your ground laws (DiD)": projects/replication-castle.md
       - "Fun project: Spotify": projects/spotify.md
+      - "Fun project: Home advantage": projects/home-advantage.md
   - Data:
       - Datasets: data/datasets.md
       - APIs: data/apis.md

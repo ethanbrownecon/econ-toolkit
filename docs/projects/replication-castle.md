@@ -72,6 +72,7 @@ The classic approach: state fixed effects remove permanent differences between s
 === "Stata"
 
     ```stata
+    * reghdfe needs: ssc install reghdfe, ssc install ftools, ssc install require
     reghdfe l_homicide post [aweight = popwt], absorb(sid year) vce(cluster sid)
     ```
 

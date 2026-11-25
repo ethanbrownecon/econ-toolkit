@@ -69,6 +69,14 @@ Plain-English guides to Stata, R, Python, LaTeX and Git, written for students st
 
     [:octicons-arrow-right-24: Analyze your music](projects/spotify.md)
 
+-   :material-soccer:{ .lg .middle } **Fun project: Home advantage**
+
+    ---
+
+    Did home advantage vanish when COVID emptied the stadiums? A natural experiment with football data.
+
+    [:octicons-arrow-right-24: Find out](projects/home-advantage.md)
+
 -   :material-database-search-outline:{ .lg .middle } **Find data**
 
     ---

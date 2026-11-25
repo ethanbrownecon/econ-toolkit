@@ -54,6 +54,16 @@ Learn by doing. Each project takes one dataset from start to finish, with every 
 
     [:octicons-arrow-right-24: Start](spotify.md)
 
+-   :material-soccer:{ .lg .middle } **Fun project: Is home advantage real?**
+
+    ---
+
+    Use COVID's empty stadiums as a natural experiment on 3,420 Premier League matches. Do crowds sway referees?
+
+    **Level:** Beginner · **Time:** 1 hour · **Stata, R, Python**
+
+    [:octicons-arrow-right-24: Start](home-advantage.md)
+
 </div>
 
 !!! tip "Before you start"
