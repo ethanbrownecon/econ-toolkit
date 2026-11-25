@@ -132,7 +132,7 @@ In the tables, `df` is your data frame. `x`, `y`, `id`, `year` and `state` stand
 | Robust standard errors | `feols(y ~ x, data = df, vcov = "hetero")` | `pf.feols("y ~ x", data=df, vcov="hetero")` |
 | Clustered standard errors | `feols(y ~ x, data = df, cluster = ~state)` | `pf.feols("y ~ x", data=df, vcov={"CRV1": "state"})` |
 | Fixed effects | `feols(y ~ x | id + year, data = df)` | `pf.feols("y ~ x | id + year", data=df)` |
-| Instrumental variables | `feols(y ~ 1 | x ~ z, data = df)` | `pf.feols("y ~ 1 | x ~ z", data=df)` |
+| Instrumental variables | `feols(y ~ 1 | x ~ z, data = df)` | `pf.feols("y ~ 1 + [x ~ z]", data=df)` |
 | Show results | `summary(fit)` | `fit.summary()` |
 | Coefficients | `coef(fit)` | `fit.coef()` |
 | Table of models | `etable(m1, m2)` | `pf.etable([m1, m2])` |

@@ -58,9 +58,9 @@ It is written for **undergraduates and new research assistants**. Every page is 
 - [x] Beginner project: wages and education
 - [x] Fun project: Spotify listening history
 - [x] Datasets, APIs and web scraping
-- [ ] R for econometrics
-- [ ] Stata
-- [ ] Python for data work
+- [x] Stata
+- [x] R for econometrics
+- [x] Python for data work
 - [ ] SQL
 - [ ] Data visualization
 - [ ] Machine learning

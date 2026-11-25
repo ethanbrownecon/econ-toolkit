@@ -167,17 +167,23 @@ Plain-English guides to Stata, R, Python, LaTeX and Git, written for students st
 
     [:octicons-arrow-right-24: Read](data/scraping.md)
 
--   :material-language-r:{ .lg .middle } **R** <span class="soon">Soon</span>
+-   :material-language-r:{ .lg .middle } **R**
 
-    Data wrangling, panel models and IV.
+    tidyverse, fixest regressions, panels, IV and ggplot2.
 
--   :material-chart-box-outline:{ .lg .middle } **Stata** <span class="soon">Soon</span>
+    [:octicons-arrow-right-24: Read](r/README.md)
 
-    Do-files, estimation, tables and reshaping.
+-   :material-chart-box-outline:{ .lg .middle } **Stata**
 
--   :material-language-python:{ .lg .middle } **Python** <span class="soon">Soon</span>
+    Syntax, loops, regressions, panels, IV, tables and graphs.
 
-    pandas, NumPy and web scraping.
+    [:octicons-arrow-right-24: Read](stata/README.md)
+
+-   :material-language-python:{ .lg .middle } **Python**
+
+    pandas, pyfixest regressions, panels, IV and charts.
+
+    [:octicons-arrow-right-24: Read](python/README.md)
 
 -   :material-database-outline:{ .lg .middle } **SQL** <span class="soon">Soon</span>
 

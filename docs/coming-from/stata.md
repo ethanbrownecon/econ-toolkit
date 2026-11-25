@@ -247,7 +247,7 @@ R uses **fixest** and Python uses **pyfixest**. Both use the same formula style:
     | Interaction | `reg y c.x##i.treat` | `fit = pf.feols("y ~ x * C(treat)", data=df)` |
     | Fixed effects | `reghdfe y x, absorb(id)` | `fit = pf.feols("y ~ x | id", data=df)` |
     | Two-way fixed effects | `reghdfe y x, absorb(id year)` | `fit = pf.feols("y ~ x | id + year", data=df)` |
-    | Instrumental variables | `ivregress 2sls y (x = z)` | `fit = pf.feols("y ~ 1 | x ~ z", data=df)` |
+    | Instrumental variables | `ivregress 2sls y (x = z)` | `fit = pf.feols("y ~ 1 + [x ~ z]", data=df)` |
     | Logit | `logit d x` | `fit = smf.logit("d ~ x", data=df).fit()` |
     | Probit | `probit d x` | `fit = smf.probit("d ~ x", data=df).fit()` |
 
