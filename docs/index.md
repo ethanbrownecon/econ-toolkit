@@ -14,7 +14,7 @@ hide:
 
 Plain-English guides to Stata, R, Python, LaTeX and Git, written for students starting their first research project.
 
-[Get started](vscode/README.md){ .md-button .md-button--primary }
+[Start here](start-here.md){ .md-button .md-button--primary }
 [Coming from Stata?](coming-from/stata.md){ .md-button }
 
 </div>

@@ -14,6 +14,26 @@ Learn by doing. Each project takes one dataset from start to finish, with every 
 
     [:octicons-arrow-right-24: Start](wages.md)
 
+-   :material-chart-line:{ .lg .middle } **Project 2: The economy in charts**
+
+    ---
+
+    Download 75 years of FRED data, shade recessions, and test the Phillips curve and Okun's law.
+
+    **Level:** Beginner · **Time:** 1 hour · **Stata, R, Python**
+
+    [:octicons-arrow-right-24: Start](fred.md)
+
+-   :material-gavel:{ .lg .middle } **Replication: Drunk driving and deterrence**
+
+    ---
+
+    Reproduce Hansen (2015) in the *American Economic Review* with a regression discontinuity design.
+
+    **Level:** Intermediate · **Time:** 90 minutes · **Stata, R, Python**
+
+    [:octicons-arrow-right-24: Start](replication-hansen.md)
+
 -   :material-spotify:{ .lg .middle } **Fun project: Your Spotify listening**
 
     ---
