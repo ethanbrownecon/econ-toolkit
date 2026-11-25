@@ -4,6 +4,11 @@ site_url: https://ethanbrownecon.github.io/econ-toolkit/
 repo_name: econ-toolkit
 repo_url: https://github.com/ethanbrownecon/econ-toolkit
 edit_uri: edit/main/docs/
+copyright: >
+  © 2026 Ethan Brown · Writing licensed under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
+  Code licensed under
+  <a href="https://github.com/ethanbrownecon/econ-toolkit/blob/main/LICENSE-CODE">MIT</a>
 
 # MkDocs skips docs/templates/ by default; include it
 exclude_docs: |

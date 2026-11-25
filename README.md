@@ -14,6 +14,8 @@
 [![Deploy](https://github.com/ethanbrownecon/econ-toolkit/actions/workflows/deploy.yml/badge.svg)](https://github.com/ethanbrownecon/econ-toolkit/actions/workflows/deploy.yml)
 [![Website](https://img.shields.io/badge/website-live-0f766e?logo=materialformkdocs&logoColor=white)](https://ethanbrownecon.github.io/econ-toolkit/)
 [![Built with Material for MkDocs](https://img.shields.io/badge/built%20with-Material%20for%20MkDocs-526cfe?logo=materialformkdocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+[![License: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-0f766e)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/code-MIT-0f766e)](LICENSE-CODE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-65a30d)](CONTRIBUTING.md)
 
 **[Read the guide](https://ethanbrownecon.github.io/econ-toolkit/)** ·
@@ -87,6 +89,11 @@ econ-toolkit/
 ## Contributing
 
 Corrections, examples and topic ideas are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md), then [open an issue](https://github.com/ethanbrownecon/econ-toolkit/issues/new/choose) or a pull request.
+
+## License
+
+- **Writing and images** are licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](LICENSE). You may share and adapt them for any purpose, including commercial use, as long as you give credit and link back to The Econ Toolkit.
+- **Code**, including the templates in `docs/templates/files/`, the code examples on every page and the site configuration, is licensed under the [MIT License](LICENSE-CODE). You may use it in your own projects without credit.
 
 ## Acknowledgements
 

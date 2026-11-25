@@ -41,4 +41,6 @@ mkdocs build --strict
 2. Explain what you changed and why in the pull request description.
 3. If you changed code in a template, say how you tested it.
 
+By contributing, you agree that your writing is licensed under CC BY 4.0 and your code under the MIT License, the same as the rest of the project.
+
 The site rebuilds and deploys automatically when a pull request is merged into `main`.
