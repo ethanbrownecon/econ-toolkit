@@ -28,6 +28,7 @@ The first pass is anchored in Stata, R, Python, SQL, and Power BI, with later gu
 - [Data visualization](docs/data-viz/README.md): Power BI, ggplot2, matplotlib, and seaborn
 - [Machine learning](docs/machine-learning/README.md): scikit-learn and deep learning primers
 - [Reproducible research](docs/reproducible-research/README.md): project structure and environments
+- [Coming from Stata, Excel or R](docs/coming-from/index.md): line-by-line translation tables into R and Python
 
 ## Local development
 

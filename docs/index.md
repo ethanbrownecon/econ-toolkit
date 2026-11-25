@@ -8,6 +8,10 @@ The first pass is anchored in Stata, R, Python, SQL, and Power BI, with later gu
 
 Start with [Git & GitHub](git-github/README.md), then move through Markdown and command line basics before choosing the tools closest to your current research workflow.
 
+## Coming from another tool
+
+Already know Stata, Excel or R? The [Coming from](coming-from/index.md) pages translate what you know into R or Python, line by line.
+
 ## Status
 
 This site is being built guide by guide. The first substantive guide is Git & GitHub; the remaining sections are placeholders for the planned sequence.

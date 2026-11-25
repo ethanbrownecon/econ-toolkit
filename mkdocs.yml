@@ -11,6 +11,7 @@ theme:
     - navigation.top
     - search.suggest
     - content.code.copy
+    - content.tabs.link
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -37,6 +38,11 @@ nav:
       - Data visualization: data-viz/README.md
       - Machine learning: machine-learning/README.md
       - Reproducible research: reproducible-research/README.md
+  - Coming from...:
+      - Overview: coming-from/index.md
+      - Coming from Stata: coming-from/stata.md
+      - Coming from Excel: coming-from/excel.md
+      - Coming from R: coming-from/r.md
 
 markdown_extensions:
   - admonition
@@ -45,6 +51,7 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.superfences
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist
   - tables
