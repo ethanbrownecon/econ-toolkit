@@ -185,9 +185,11 @@ Plain-English guides to Stata, R, Python, LaTeX and Git, written for students st
 
     [:octicons-arrow-right-24: Read](python/README.md)
 
--   :material-database-outline:{ .lg .middle } **SQL** <span class="soon">Soon</span>
+-   :material-database-outline:{ .lg .middle } **SQL**
 
-    Joins, aggregation and warehouse queries.
+    Query data with DuckDB: filters, groups, joins and window functions.
+
+    [:octicons-arrow-right-24: Read](sql/README.md)
 
 -   :material-chart-bar:{ .lg .middle } **Data visualization** <span class="soon">Soon</span>
 

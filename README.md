@@ -61,7 +61,7 @@ It is written for **undergraduates and new research assistants**. Every page is 
 - [x] Stata
 - [x] R for econometrics
 - [x] Python for data work
-- [ ] SQL
+- [x] SQL
 - [ ] Data visualization
 - [ ] Machine learning
 - [ ] Reproducible research
