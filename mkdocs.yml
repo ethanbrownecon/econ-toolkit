@@ -74,6 +74,14 @@ nav:
       - Stata do-file: templates/stata.md
       - R script: templates/r.md
       - Python script: templates/python.md
+  - Projects:
+      - Overview: projects/index.md
+      - "Project 1: Wages and education": projects/wages.md
+      - "Fun project: Spotify": projects/spotify.md
+  - Data:
+      - Datasets: data/datasets.md
+      - APIs: data/apis.md
+      - Web scraping: data/scraping.md
   - Coming from:
       - Overview: coming-from/index.md
       - Stata: coming-from/stata.md

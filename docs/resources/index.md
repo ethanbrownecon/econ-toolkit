@@ -171,18 +171,7 @@ The best free guides, books and official documentation for each tool, picked for
 
 ## Data sources
 
-| Source | What it has |
-|---|---|
-| **[FRED](https://fred.stlouisfed.org/)** <span class="pick">Start here</span> | US and international macroeconomic time series |
-| [World Bank Data](https://data.worldbank.org/) | Development indicators for every country |
-| [IPUMS](https://www.ipums.org/) | Harmonised census and survey microdata |
-| [US Census Bureau](https://data.census.gov/) | US population, housing and business data |
-| [Bureau of Labor Statistics](https://www.bls.gov/data/) | US employment, wages and prices |
-| [Bureau of Economic Analysis](https://www.bea.gov/data) | US GDP, income and trade |
-| [OECD Data Explorer](https://data-explorer.oecd.org/) | Statistics for OECD countries |
-| [Penn World Table](https://www.rug.nl/ggdc/productivity/pwt/) | Cross-country GDP, capital and productivity |
-| [ICPSR](https://www.icpsr.umich.edu/) | Archive of social science research data |
-| [Harvard Dataverse](https://dataverse.harvard.edu/) | Replication data from published papers |
+See the [Datasets](../data/datasets.md) page for practice data, government and international sources, and how to download your own data.
 
 ## Where to ask for help
 

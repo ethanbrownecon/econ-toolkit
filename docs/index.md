@@ -49,6 +49,36 @@ Plain-English guides to Stata, R, Python, LaTeX and Git, written for students st
 
 </div>
 
+## Learn by doing
+
+<div class="grid cards" markdown>
+
+-   :material-school-outline:{ .lg .middle } **Project 1: Wages and education**
+
+    ---
+
+    Load, clean, chart and run a regression on a survey dataset, in Stata, R or Python.
+
+    [:octicons-arrow-right-24: Start the project](projects/wages.md)
+
+-   :material-spotify:{ .lg .middle } **Fun project: Spotify**
+
+    ---
+
+    Download your own listening history and find out what you really listen to.
+
+    [:octicons-arrow-right-24: Analyse your music](projects/spotify.md)
+
+-   :material-database-search-outline:{ .lg .middle } **Find data**
+
+    ---
+
+    Practice datasets, government sources, APIs and web scraping.
+
+    [:octicons-arrow-right-24: Datasets](data/datasets.md)
+
+</div>
+
 ## Already know one tool?
 
 <div class="grid cards" markdown>
@@ -113,13 +143,29 @@ Plain-English guides to Stata, R, Python, LaTeX and Git, written for students st
 
     [:octicons-arrow-right-24: Read](resources/index.md)
 
--   :material-console:{ .lg .middle } **Command line** <span class="soon">Soon</span>
+-   :material-console:{ .lg .middle } **Command line**
 
-    Files, environments and package managers.
+    Files, paths, running scripts and virtual environments.
 
--   :material-language-markdown-outline:{ .lg .middle } **Markdown** <span class="soon">Soon</span>
+    [:octicons-arrow-right-24: Read](command-line/README.md)
 
-    The writing format behind every guide.
+-   :material-language-markdown-outline:{ .lg .middle } **Markdown**
+
+    Headings, lists, tables, code blocks and a good README.
+
+    [:octicons-arrow-right-24: Read](markdown/README.md)
+
+-   :material-api:{ .lg .middle } **APIs**
+
+    Pull data from FRED and the World Bank with code.
+
+    [:octicons-arrow-right-24: Read](data/apis.md)
+
+-   :material-spider-web:{ .lg .middle } **Web scraping**
+
+    Read tables and data from web pages, politely.
+
+    [:octicons-arrow-right-24: Read](data/scraping.md)
 
 -   :material-language-r:{ .lg .middle } **R** <span class="soon">Soon</span>
 

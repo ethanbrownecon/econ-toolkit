@@ -39,6 +39,8 @@ It is written for **undergraduates and new research assistants**. Every page is 
 |---|---|
 | **[Get set up](https://ethanbrownecon.github.io/econ-toolkit/vscode/)** | VS Code, Git & GitHub, command line and Markdown |
 | **[Templates](https://ethanbrownecon.github.io/econ-toolkit/templates/)** | Ready-to-run Stata do-file, R script and Python script templates, plus a standard project folder layout |
+| **[Projects](https://ethanbrownecon.github.io/econ-toolkit/projects/)** | Guided beginner projects: a wage regression in Stata, R and Python, and analysing your own Spotify history |
+| **[Data](https://ethanbrownecon.github.io/econ-toolkit/data/datasets/)** | Practice and official datasets, plus guides to APIs and web scraping |
 | **[Coming from…](https://ethanbrownecon.github.io/econ-toolkit/coming-from/)** | Line-by-line translation tables: Stata → R/Python, Excel → R/Python and R → Python |
 | **[Guides](https://ethanbrownecon.github.io/econ-toolkit/latex/)** | LaTeX, R, Stata, Python, SQL, data visualization, machine learning and reproducible research |
 | **[Resources](https://ethanbrownecon.github.io/econ-toolkit/resources/)** | The best free books, courses, official documentation and data sources |
@@ -51,8 +53,11 @@ It is written for **undergraduates and new research assistants**. Every page is 
 - [x] Script templates (Stata, R, Python)
 - [x] Coming from Stata, Excel and R
 - [x] Other resources
-- [ ] Markdown
-- [ ] Command line basics
+- [x] Markdown
+- [x] Command line basics
+- [x] Beginner project: wages and education
+- [x] Fun project: Spotify listening history
+- [x] Datasets, APIs and web scraping
 - [ ] R for econometrics
 - [ ] Stata
 - [ ] Python for data work
