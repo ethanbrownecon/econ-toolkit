@@ -64,9 +64,9 @@ It is written for **undergraduates and new research assistants**. Every page is 
 - [x] Python for data work
 - [x] SQL
 - [x] Econometrics and causal inference
-- [ ] Data visualization
-- [ ] Machine learning
-- [ ] Reproducible research
+- [x] Data visualization
+- [x] Machine learning
+- [x] Reproducible research
 
 ## Run the site locally
 

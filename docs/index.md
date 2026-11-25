@@ -217,16 +217,22 @@ Plain-English guides to Stata, R, Python, LaTeX and Git, written for students st
 
     [:octicons-arrow-right-24: Read](sql/README.md)
 
--   :material-chart-bar:{ .lg .middle } **Data visualization** <span class="soon">Soon</span>
+-   :material-chart-bar:{ .lg .middle } **Data visualization**
 
-    ggplot2, matplotlib, seaborn and Power BI.
+    Choosing charts, six recipes, and exporting for papers.
 
--   :material-robot-outline:{ .lg .middle } **Machine learning** <span class="soon">Soon</span>
+    [:octicons-arrow-right-24: Read](data-viz/README.md)
 
-    scikit-learn and deep learning primers.
+-   :material-robot-outline:{ .lg .middle } **Machine learning**
 
--   :material-folder-check-outline:{ .lg .middle } **Reproducible research** <span class="soon">Soon</span>
+    Prediction, cross-validation, LASSO, random forests and ML for causal inference.
 
-    Project structure and environments.
+    [:octicons-arrow-right-24: Read](machine-learning/README.md)
+
+-   :material-folder-check-outline:{ .lg .middle } **Reproducible research**
+
+    Project layout, master scripts, package versions and a replication checklist.
+
+    [:octicons-arrow-right-24: Read](reproducible-research/README.md)
 
 </div>
