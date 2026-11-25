@@ -85,7 +85,7 @@ Typing `t` on a repo page opens a fuzzy file finder; pressing `.` opens the repo
 A remote is a copy of the repository hosted elsewhere, usually GitHub. Clone an existing project to get a local copy with the remote already configured:
 
 ```bash
-git clone https://github.com/EthanBrown-Economics/econ-toolkit.git
+git clone https://github.com/ethanbrownecon/econ-toolkit.git
 cd econ-toolkit
 ```
 

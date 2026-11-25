@@ -1,13 +1,13 @@
 # Technical Skills for Economics
 
-[![Deploy documentation](https://github.com/EthanBrown-Economics/econ-toolkit/actions/workflows/deploy.yml/badge.svg)](https://github.com/EthanBrown-Economics/econ-toolkit/actions/workflows/deploy.yml)
-[![Read the docs](https://img.shields.io/badge/read-the%20docs-0f766e?logo=github)](https://ethanbrown-economics.github.io/econ-toolkit/)
+[![Deploy documentation](https://github.com/ethanbrownecon/econ-toolkit/actions/workflows/deploy.yml/badge.svg)](https://github.com/ethanbrownecon/econ-toolkit/actions/workflows/deploy.yml)
+[![Read the docs](https://img.shields.io/badge/read-the%20docs-0f766e?logo=github)](https://ethanbrownecon.github.io/econ-toolkit/)
 
 An open-source, practical field guide to the technical skills used in economics research and analysis. Learn the tools behind modern econometrics, data work, and reproducible research in one place.
 
 The guide covers Git and GitHub, Markdown, command line basics, LaTeX, R for econometrics, Stata, Python, SQL, data visualization, machine learning, and reproducible research. It is designed for students, research assistants, economists, and applied researchers building a reliable workflow.
 
-**[Read the documentation](https://ethanbrown-economics.github.io/econ-toolkit/)** | **[Browse the guides](docs/index.md)** | **[Suggest a topic](https://github.com/EthanBrown-Economics/econ-toolkit/issues/new)**
+**[Read the documentation](https://ethanbrownecon.github.io/econ-toolkit/)** | **[Browse the guides](docs/index.md)** | **[Suggest a topic](https://github.com/ethanbrownecon/econ-toolkit/issues/new)**
 
 ## Why this exists
 
@@ -17,6 +17,8 @@ The first pass is anchored in Stata, R, Python, SQL, and Power BI, with later gu
 
 ## Contents
 
+- [VS Code](docs/vscode/README.md): editor setup, extensions, shortcuts, and settings
+- [Templates](docs/templates/index.md): standard structures for Stata do-files, R scripts, and Python scripts
 - [Git & GitHub](docs/git-github/README.md): version control, branches, pull requests, and GitHub Actions
 - [Markdown](docs/markdown/README.md): the writing format used by every guide
 - [Command line basics](docs/command-line/README.md): files, environments, and package managers
@@ -41,7 +43,7 @@ mkdocs serve
 
 Then open the local URL shown by MkDocs.
 
-The published site is available at <https://ethanbrown-economics.github.io/econ-toolkit/>.
+The published site is available at <https://ethanbrownecon.github.io/econ-toolkit/>.
 
 ## Contributing
 
