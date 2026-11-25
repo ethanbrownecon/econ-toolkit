@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 64" role="img" aria-label="The Econ Toolkit">
+  <defs>
+    <linearGradient id="g" x1="0" y1="64" x2="132" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d9488"/>
+      <stop offset="1" stop-color="#65a30d"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#g)">
+    <rect x="2" y="42" width="11" height="18" rx="3"/>
+    <rect x="18" y="32" width="11" height="28" rx="3"/>
+    <rect x="34" y="20" width="11" height="40" rx="3"/>
+    <rect x="50" y="6" width="11" height="54" rx="3"/>
+  </g>
+  <g fill="none" stroke="url(#g)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 20 L71 33 L84 46"/>
+    <path d="M92 52 L102 14"/>
+    <path d="M110 20 L123 33 L110 46"/>
+  </g>
+  <g font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" fill="#0f172a">
+    <text x="146" y="29" font-size="22" letter-spacing="3">THE ECON</text>
+    <text x="146" y="58" font-size="22" letter-spacing="3">TOOLKIT</text>
+  </g>
+</svg>

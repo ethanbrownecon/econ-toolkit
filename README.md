@@ -1,64 +1,93 @@
-# Technical Skills for Economics
+<div align="center">
 
-[![Deploy documentation](https://github.com/ethanbrownecon/econ-toolkit/actions/workflows/deploy.yml/badge.svg)](https://github.com/ethanbrownecon/econ-toolkit/actions/workflows/deploy.yml)
-[![Read the docs](https://img.shields.io/badge/read-the%20docs-0f766e?logo=github)](https://ethanbrownecon.github.io/econ-toolkit/)
+<a href="https://ethanbrownecon.github.io/econ-toolkit/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/brand/logo-dark.svg">
+    <img src="docs/assets/brand/logo.svg" alt="The Econ Toolkit" width="420">
+  </picture>
+</a>
 
-An open-source, practical field guide to the technical skills used in economics research and analysis. Learn the tools behind modern econometrics, data work, and reproducible research in one place.
+<h3>Plain-English guides to the technical skills behind economics research</h3>
 
-The guide covers Git and GitHub, Markdown, command line basics, LaTeX, R for econometrics, Stata, Python, SQL, data visualization, machine learning, and reproducible research. It is designed for students, research assistants, economists, and applied researchers building a reliable workflow.
+<p>Stata · R · Python · LaTeX · Git · VS Code · SQL · Reproducible research</p>
 
-**[Read the documentation](https://ethanbrownecon.github.io/econ-toolkit/)** | **[Browse the guides](docs/index.md)** | **[Suggest a topic](https://github.com/ethanbrownecon/econ-toolkit/issues/new)**
+[![Deploy](https://github.com/ethanbrownecon/econ-toolkit/actions/workflows/deploy.yml/badge.svg)](https://github.com/ethanbrownecon/econ-toolkit/actions/workflows/deploy.yml)
+[![Website](https://img.shields.io/badge/website-live-0f766e?logo=materialformkdocs&logoColor=white)](https://ethanbrownecon.github.io/econ-toolkit/)
+[![Built with Material for MkDocs](https://img.shields.io/badge/built%20with-Material%20for%20MkDocs-526cfe?logo=materialformkdocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-65a30d)](CONTRIBUTING.md)
 
-## Why this exists
+**[Read the guide](https://ethanbrownecon.github.io/econ-toolkit/)** ·
+**[Templates](https://ethanbrownecon.github.io/econ-toolkit/templates/)** ·
+**[Coming from Stata](https://ethanbrownecon.github.io/econ-toolkit/coming-from/stata/)** ·
+**[Suggest a topic](https://github.com/ethanbrownecon/econ-toolkit/issues/new/choose)**
 
-Economics research often depends on a stack of tools rather than one programming language. This project connects those tools to the work economists actually do: cleaning data, estimating models, producing tables and figures, collaborating with Git, and making results reproducible.
+</div>
 
-The first pass is anchored in Stata, R, Python, SQL, and Power BI, with later guides filling in adjacent skills such as web scraping and deep learning.
+---
 
-## Contents
+## About
 
-- [VS Code](docs/vscode/README.md): editor setup, extensions, shortcuts, and settings
-- [Templates](docs/templates/index.md): standard structures for Stata do-files, R scripts, and Python scripts
-- [Git & GitHub](docs/git-github/README.md): version control, branches, pull requests, and GitHub Actions
-- [Markdown](docs/markdown/README.md): the writing format used by every guide
-- [Command line basics](docs/command-line/README.md): files, environments, and package managers
-- [LaTeX](docs/latex/README.md): papers, CVs, bibliographies, and Beamer slides
-- [R for econometrics](docs/r/README.md): data wrangling, visualization, panel models, and IV
-- [Stata](docs/stata/README.md): do-files, estimation, tables, merging, and reshaping
-- [Python for data work](docs/python/README.md): pandas, NumPy, and web scraping
-- [SQL](docs/sql/README.md): joins, aggregation, and data warehouse queries
-- [Data visualization](docs/data-viz/README.md): Power BI, ggplot2, matplotlib, and seaborn
-- [Machine learning](docs/machine-learning/README.md): scikit-learn and deep learning primers
-- [Reproducible research](docs/reproducible-research/README.md): project structure and environments
-- [Coming from Stata, Excel or R](docs/coming-from/index.md): line-by-line translation tables into R and Python
+Economics research runs on a stack of tools, not one language. You clean data in Stata or R, estimate models, write the paper in LaTeX and keep it all in Git. **The Econ Toolkit** explains each of those tools in plain English and connects them to the work economists do.
 
-## Local development
+It is written for **undergraduates and new research assistants**. Every page is short, practical and meant to be copied from.
+
+## What's inside
+
+| Section | What you get |
+|---|---|
+| **[Get set up](https://ethanbrownecon.github.io/econ-toolkit/vscode/)** | VS Code, Git & GitHub, command line and Markdown |
+| **[Templates](https://ethanbrownecon.github.io/econ-toolkit/templates/)** | Ready-to-run Stata do-file, R script and Python script templates, plus a standard project folder layout |
+| **[Coming from…](https://ethanbrownecon.github.io/econ-toolkit/coming-from/)** | Line-by-line translation tables: Stata → R/Python, Excel → R/Python and R → Python |
+| **[Guides](https://ethanbrownecon.github.io/econ-toolkit/latex/)** | LaTeX, R, Stata, Python, SQL, data visualization, machine learning and reproducible research |
+| **[Resources](https://ethanbrownecon.github.io/econ-toolkit/resources/)** | The best free books, courses, official documentation and data sources |
+
+## Roadmap
+
+- [x] Git & GitHub
+- [x] LaTeX
+- [x] VS Code
+- [x] Script templates (Stata, R, Python)
+- [x] Coming from Stata, Excel and R
+- [x] Other resources
+- [ ] Markdown
+- [ ] Command line basics
+- [ ] R for econometrics
+- [ ] Stata
+- [ ] Python for data work
+- [ ] SQL
+- [ ] Data visualization
+- [ ] Machine learning
+- [ ] Reproducible research
+
+## Run the site locally
 
 ```bash
+git clone https://github.com/ethanbrownecon/econ-toolkit.git
+cd econ-toolkit
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements.txt
+pip install -r requirements.txt
 mkdocs serve
 ```
 
-Then open the local URL shown by MkDocs.
+Open <http://127.0.0.1:8000>. Pages reload as you edit files in `docs/`.
 
-The published site is available at <https://ethanbrownecon.github.io/econ-toolkit/>.
+## Repository layout
+
+```text
+econ-toolkit/
+├── docs/                 every page of the site, in Markdown
+│   ├── assets/brand/     logo files
+│   ├── templates/files/  downloadable Stata, R and Python templates
+│   └── stylesheets/      site theme
+├── mkdocs.yml            site settings and navigation
+└── .github/workflows/    builds and deploys the site on every push to main
+```
 
 ## Contributing
 
-Corrections, examples, and proposed topics are welcome. Open an issue for a question or suggestion, or submit a pull request with a focused improvement. Keep examples reproducible and explain which economics workflow they support.
+Corrections, examples and topic ideas are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md), then [open an issue](https://github.com/ethanbrownecon/econ-toolkit/issues/new/choose) or a pull request.
 
-## Build order
+## Acknowledgements
 
-1. Git & GitHub
-2. Markdown
-3. Command line basics
-4. LaTeX
-5. R for econometrics
-6. Stata
-7. Python for data work
-8. SQL
-9. Data visualization
-10. Intro ML / deep learning
-11. Reproducible research practices
+The "Coming from" pages follow the layout of Arthur Turrell's [Coding for Economists](https://aeturrell.github.io/coding-for-economists/). The site is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).

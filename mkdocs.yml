@@ -1,4 +1,4 @@
-site_name: Econ Toolkit
+site_name: The Econ Toolkit
 site_description: Practical technical guides for economics research and analysis.
 site_url: https://ethanbrownecon.github.io/econ-toolkit/
 repo_name: econ-toolkit
@@ -14,8 +14,8 @@ theme:
   font:
     text: Inter
     code: JetBrains Mono
+  logo: assets/brand/mark.svg
   icon:
-    logo: material/chart-timeline-variant-shimmer
     repo: fontawesome/brands/github
   favicon: assets/favicon.svg
   features:
@@ -30,6 +30,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.action.edit
     - content.tabs.link
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -51,6 +52,7 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ethanbrownecon/econ-toolkit
@@ -81,6 +83,7 @@ nav:
       - Data visualization: data-viz/README.md
       - Machine learning: machine-learning/README.md
       - Reproducible research: reproducible-research/README.md
+  - Resources: resources/index.md
 
 markdown_extensions:
   - admonition

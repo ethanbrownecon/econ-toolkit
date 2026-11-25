@@ -6,6 +6,8 @@ hide:
 
 <div class="hero" markdown>
 
+![](assets/brand/mark.svg){ .hero-mark }
+
 <span class="eyebrow">Free, open-source field guide</span>
 
 # The technical skills behind economics research
@@ -104,6 +106,12 @@ Plain-English guides to Stata, R, Python, LaTeX and Git, written for students st
     Ready-to-use Stata, R and Python script structures.
 
     [:octicons-arrow-right-24: Read](templates/index.md)
+
+-   :material-bookshelf:{ .lg .middle } **Other resources**
+
+    The best free books, courses, documentation and data sources.
+
+    [:octicons-arrow-right-24: Read](resources/index.md)
 
 -   :material-console:{ .lg .middle } **Command line** <span class="soon">Soon</span>
 

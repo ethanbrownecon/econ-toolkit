@@ -1,0 +1,32 @@
+name: Topic request
+description: Suggest a tool, command or workflow the guide should cover
+title: "[Topic]: "
+labels: ["topic request"]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      placeholder: e.g. Event-study plots in R and Stata
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Where would it fit?
+      options:
+        - Get set up
+        - Templates
+        - Coming from
+        - Guides
+        - Resources
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it useful?
+      description: What were you trying to do when you looked for this?
+    validations:
+      required: true
