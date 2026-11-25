@@ -63,7 +63,7 @@ Markdown is plain text with a few symbols that turn into formatting. A `#` makes
 
 ## Code blocks
 
-Wrap code in three backticks. Add the language name after the first three to get colours.
+Wrap code in three backticks. Add the language name after the first three to get colors.
 
 ````markdown
 ```stata
@@ -96,7 +96,7 @@ Common language names: `stata`, `r`, `python`, `sql`, `bash`, `latex`, `json`, `
 | Educ | 13.2 | 2.8 |
 
 - The second line separates the header from the rows. It needs at least three dashes per column.
-- A colon on the right (`-----:`) right-aligns the column, which suits numbers. A colon on the left aligns left, and colons on both sides centre the column.
+- A colon on the right (`-----:`) right-aligns the column, which suits numbers. A colon on the left aligns left, and colons on both sides center the column.
 - The columns do not need to line up in the text file. Neat spacing just makes the file easier to read.
 
 !!! tip "Do not type big tables by hand"
@@ -109,7 +109,7 @@ Many Markdown tools, including GitHub, Jupyter and Quarto, render LaTeX maths be
 | You type | Where it appears |
 |---|---|
 | `$y_i = \beta_0 + \beta_1 x_i + \varepsilon_i$` | Inside the sentence |
-| `$$\hat\beta = (X'X)^{-1}X'y$$` | On its own line, centred |
+| `$$\hat\beta = (X'X)^{-1}X'y$$` | On its own line, centered |
 
 See the [LaTeX guide](../latex/README.md#equations) for the maths commands.
 
@@ -162,7 +162,7 @@ GitHub adds a few extras to standard Markdown:
 |---|---|---|
 | Mention | `@username` | Notifies that person |
 | Issue link | `#12` | Links to issue or pull request 12 |
-| Callout | `> [!NOTE]` on the first line of a quote | Shows a coloured note box. `[!TIP]`, `[!WARNING]` and `[!IMPORTANT]` also work. |
+| Callout | `> [!NOTE]` on the first line of a quote | Shows a colored note box. `[!TIP]`, `[!WARNING]` and `[!IMPORTANT]` also work. |
 | Collapsible section | `<details><summary>Title</summary> ... </details>` | Hides long content until clicked |
 
 ## Where Markdown goes next

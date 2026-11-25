@@ -13,6 +13,7 @@ Thank you for helping. Corrections, clearer explanations, new examples and topic
 The guide is written for undergraduates. Keep every page easy to approach.
 
 - Use short sentences and plain English. Explain a term the first time you use it.
+- Use American English spelling: practice, analyze, labor, color. Code keeps its own spelling, such as R's `summarise()`.
 - Lead with the task ("Drop rows with a missing value"), then show the code.
 - Keep code examples small and runnable. Use placeholder names such as `df`, `x`, `y`, `id` and `year`.
 - Put advanced detail in a collapsible note (`??? note`) so it does not crowd the main page.

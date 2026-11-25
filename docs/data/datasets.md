@@ -5,7 +5,7 @@ Where to find data, from small practice files to official government statistics.
 !!! tip "Which kind of data do you need?"
     - **Learning a command or method?** Use [practice data](#practice-data). It is small, clean enough and loads in one line.
     - **Writing a paper or thesis?** Use [government](#us-government-data) or [international](#international-data) sources. They are documented, citable and trusted.
-    - **Want something fun?** Try [other sources](#other-sources), or analyse [your own data](#your-own-data).
+    - **Want something fun?** Try [other sources](#other-sources), or analyze [your own data](#your-own-data).
 
 ## Practice data
 
@@ -66,7 +66,7 @@ These load with one line and need no download.
 | [Census Bureau](https://data.census.gov/) | American Community Survey, decennial census, business statistics | Download, or [API](https://www.census.gov/data/developers.html) |
 | [IPUMS](https://www.ipums.org/) | Census and survey microdata (CPS, ACS) cleaned and made consistent over time | Free account, then build an extract |
 | [Federal Reserve](https://www.federalreserve.gov/data.htm) | Interest rates, money supply, household debt, Survey of Consumer Finances | Download |
-| [data.gov](https://data.gov/) | Catalogue of 300,000+ federal datasets | Download |
+| [data.gov](https://data.gov/) | Catalog of 300,000+ federal datasets | Download |
 | [NLSY](https://www.nlsinfo.org/) | National Longitudinal Surveys: the same people followed for decades | Free account |
 | [PSID](https://psidonline.isr.umich.edu/) | Panel Study of Income Dynamics: US families since 1968 | Free account |
 
@@ -79,7 +79,7 @@ These load with one line and need no download.
 | [OECD Data Explorer](https://data-explorer.oecd.org/) | Statistics for OECD member countries |
 | [Eurostat](https://ec.europa.eu/eurostat/data/database) | Official statistics for the European Union |
 | [Penn World Table](https://www.rug.nl/ggdc/productivity/pwt/) | Comparable GDP, capital, productivity and prices across 180+ countries |
-| [ILOSTAT](https://ilostat.ilo.org/data/) | Labour market statistics for every country |
+| [ILOSTAT](https://ilostat.ilo.org/data/) | Labor market statistics for every country |
 | [UN Data](https://data.un.org/) | United Nations statistics on population, trade and development |
 | [UN Comtrade](https://comtradeplus.un.org/) | Detailed international trade flows by product |
 
@@ -87,7 +87,7 @@ These load with one line and need no download.
 
 | Source | What it has |
 |---|---|
-| [Opportunity Insights](https://opportunityinsights.org/data/) | Raj Chetty's data on social mobility by county, college and neighbourhood |
+| [Opportunity Insights](https://opportunityinsights.org/data/) | Raj Chetty's data on social mobility by county, college and neighborhood |
 | [ICPSR](https://www.icpsr.umich.edu/) | Archive of social science research data |
 | [Harvard Dataverse](https://dataverse.harvard.edu/) | Replication data from published papers. Reproduce a paper's results. |
 | [openICPSR (AEA)](https://www.openicpsr.org/openicpsr/aea) | Replication packages for American Economic Association journals |

@@ -2,14 +2,14 @@
 
 Does more education mean higher wages? In this project you load a small survey dataset, clean it, explore it, and run your first wage regression. Every step is shown in Stata, R and Python. Pick one language in any tab and the whole page follows.
 
-!!! info "What you will practise"
+!!! info "What you will practice"
     Loading a CSV · looking at data · removing duplicates · fixing text · handling missing values · creating variables · summary statistics · a chart · a regression · saving results
 
     **Time:** about 45 minutes. **You need:** Stata, R or Python installed. See [VS Code](../vscode/README.md) to set up.
 
 ## The data
 
-The file has 1,008 rows, one per person, from a made-up labour-force survey.
+The file has 1,008 rows, one per person, from a made-up labor-force survey.
 
 [:material-download: Download wages.csv](data/wages.csv){ .md-button .md-button--primary download }
 
@@ -427,5 +427,5 @@ Answer each question with code, then open the answer to check.
 - [x] Inspect data before changing it
 - [x] Remove duplicates, fix text and drop bad values, checking the row count each time
 - [x] Create log, difference and dummy variables
-- [x] Summarise by group, chart a relationship and run a regression with robust standard errors
+- [x] Summarize by group, chart a relationship and run a regression with robust standard errors
 - [x] Interpret coefficients when the outcome is a log

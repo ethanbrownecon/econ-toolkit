@@ -40,7 +40,7 @@ The best free guides, books and official documentation for each tool, picked for
 
 -   :material-git:{ .lg .middle } **Happy Git and GitHub for the useR**
 
-    Git explained for people who analyse data. Useful even if you do not use R.
+    Git explained for people who analyze data. Useful even if you do not use R.
 
     [:octicons-arrow-right-24: happygitwithr.com](https://happygitwithr.com/)
 
@@ -69,14 +69,14 @@ The best free guides, books and official documentation for each tool, picked for
 
 | Resource | What it is | Level |
 |---|---|---|
-| **[R for Data Science](https://r4ds.hadley.nz/)** <span class="pick">Start here</span> | Free book on importing, cleaning, plotting and modelling data | Beginner |
+| **[R for Data Science](https://r4ds.hadley.nz/)** <span class="pick">Start here</span> | Free book on importing, cleaning, plotting and modeling data | Beginner |
 | [Introduction to Econometrics with R](https://www.econometrics-with-r.org/) | An undergraduate econometrics course with R code for every chapter | Beginner |
 | [Posit cheatsheets](https://posit.co/resources/cheatsheets/) | One-page summaries of dplyr, ggplot2, tidyr and more | Beginner |
 | [Data Science for Economists](https://github.com/uo-ec607/lectures) | Grant McDermott's graduate lecture notes on R for economists | Intermediate |
 | [fixest](https://lrberge.github.io/fixest/) | Documentation for fast fixed-effects regressions | Intermediate |
 | [modelsummary](https://modelsummary.com/) | Documentation for regression and summary tables | Intermediate |
 | [tidyverse](https://www.tidyverse.org/) | Official documentation for dplyr, ggplot2, tidyr and friends | All levels |
-| [Big Book of R](https://www.bigbookofr.com/) | A catalogue of free R books, sorted by topic | All levels |
+| [Big Book of R](https://www.bigbookofr.com/) | A catalog of free R books, sorted by topic | All levels |
 
 ## Python
 
@@ -86,7 +86,7 @@ The best free guides, books and official documentation for each tool, picked for
 | [Python tutorial](https://docs.python.org/3/tutorial/) | The official introduction to the Python language | Beginner |
 | [pandas: getting started](https://pandas.pydata.org/docs/getting_started/index.html) | Official introduction to data frames | Beginner |
 | [Python for Data Analysis](https://wesmckinney.com/book/) | Free online book by the creator of pandas | Intermediate |
-| [QuantEcon](https://quantecon.org/lectures/) | Lectures on economic modelling and computation in Python | Intermediate |
+| [QuantEcon](https://quantecon.org/lectures/) | Lectures on economic modeling and computation in Python | Intermediate |
 | [pyfixest](https://py-econometrics.github.io/pyfixest/) | Documentation for fixed-effects regressions in Python | Intermediate |
 | [statsmodels](https://www.statsmodels.org/stable/index.html) | Documentation for OLS, logit, time series and more | Intermediate |
 
@@ -164,7 +164,7 @@ The best free guides, books and official documentation for each tool, picked for
 
 | Resource | What it is | Level |
 |---|---|---|
-| **[Code and Data for the Social Sciences](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)** <span class="pick">Start here</span> | Gentzkow and Shapiro's short guide to organising research code | Beginner |
+| **[Code and Data for the Social Sciences](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)** <span class="pick">Start here</span> | Gentzkow and Shapiro's short guide to organizing research code | Beginner |
 | [DIME Analytics Data Handbook](https://worldbank.github.io/dime-data-handbook/) | The World Bank's full guide to reproducible empirical research | Intermediate |
 | [AEA Data Editor guidance](https://aeadataeditor.github.io/aea-de-guidance/) | What economics journals expect in a replication package | Intermediate |
 | [Template README](https://social-science-data-editors.github.io/template_README/) | A fill-in README for sharing code and data | Intermediate |

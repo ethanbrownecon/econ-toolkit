@@ -226,7 +226,7 @@ with open("output/tables/table1.tex", "w") as f:        # LaTeX for your paper
 | `sns.boxplot()` | Box plot |
 | `sns.regplot()` / `sns.lmplot()` | Scatter with a fitted line |
 
-Add `hue="group"` to colour by group, and `col="group"` (in `lmplot` and `relplot`) for one panel per group.
+Add `hue="group"` to color by group, and `col="group"` (in `lmplot` and `relplot`) for one panel per group.
 
 ## Common errors
 
@@ -240,7 +240,7 @@ Add `hue="group"` to colour by group, and `col="group"` (in `lmplot` and `relplo
 | `SettingWithCopyWarning` | Editing a slice of a DataFrame | Add `.copy()` when you create the subset: `sub = df[df["x"] > 0].copy()` |
 | `ValueError: could not convert string to float` | Text in a number column | `pd.to_numeric(df["x"], errors="coerce")` turns bad values into `NaN` |
 
-## Practise
+## Practice
 
 - Work through [Project 1](../projects/wages.md) and the [Spotify project](../projects/spotify.md) in Python.
 - Try the [APIs](../data/apis.md) and [web scraping](../data/scraping.md) guides. Python is especially strong at both.

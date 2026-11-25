@@ -1,9 +1,9 @@
 """
 Create the simulated practice dataset used in docs/projects/wages.md.
 
-The data are made up. They mimic a small labour-force survey and include
+The data are made up. They mimic a small labor-force survey and include
 deliberate problems for students to clean: duplicate rows, inconsistent
-capitalisation, missing wages and a few impossible values.
+capitalization, missing wages and a few impossible values.
 
 Run from the repository root:
     python scripts/make_practice_data.py

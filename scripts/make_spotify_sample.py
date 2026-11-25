@@ -2,7 +2,7 @@
 Create a fake Spotify listening history for docs/projects/spotify.md.
 
 The file uses the same format as StreamingHistory_music_0.json in Spotify's
-"Account data" export, so students can practise before their own data arrives.
+"Account data" export, so students can practice before their own data arrives.
 All artist and track names are invented.
 
 Run from the repository root:
@@ -35,7 +35,7 @@ artists = {
 popularity = np.array([30, 18, 12, 10, 7, 6, 5, 4, 3, 2, 2, 1], dtype=float)
 popularity /= popularity.sum()
 names = list(artists)
-# Favourite artists get skipped less
+# Favorite artists get skipped less
 skip_p = dict(zip(names, np.linspace(0.08, 0.40, len(names))))
 
 # Local hour-of-day weights: quiet overnight, peaks on the commute and in the evening

@@ -2,7 +2,7 @@
 
 The command line, also called the terminal or shell, lets you control your computer by typing instead of clicking. You need a little of it to install packages, run scripts, use Git and keep projects reproducible. This page covers the twenty or so commands you will actually use.
 
-!!! tip "You do not need to memorise this"
+!!! tip "You do not need to memorize this"
     Keep this page open the first few times. After a week, the common commands become habit.
 
 ## Open a terminal

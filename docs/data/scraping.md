@@ -71,7 +71,7 @@ Look through the tables to find the right one. Numbers often arrive as text with
 
 ## Scrape a page step by step
 
-[Books to Scrape](https://books.toscrape.com/) is a fake bookshop built for practising. Each book on a page sits in an `<article class="product_pod">`, as in the HTML above.
+[Books to Scrape](https://books.toscrape.com/) is a fake bookshop built for practicing. Each book on a page sits in an `<article class="product_pod">`, as in the HTML above.
 
 === "R"
 

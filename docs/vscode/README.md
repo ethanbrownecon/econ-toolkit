@@ -19,7 +19,7 @@ VS Code is a free code editor. One window can edit and run Python, R, LaTeX and 
 | **Search** | Left bar, magnifying glass | Find text in every file in the project |
 | **Source Control** | Left bar, branch icon | See changes, commit and push with Git |
 | **Extensions** | Left bar, four squares | Install support for more languages |
-| **Editor** | Centre | Where you write code. Split it to see two files side by side. |
+| **Editor** | Center | Where you write code. Split it to see two files side by side. |
 | **Terminal** | Bottom panel | A command line already inside your project folder |
 | **Status bar** | Bottom edge | Current Python or R version, Git branch, errors |
 
@@ -52,7 +52,7 @@ Open the Extensions view, search for the name, and click **Install**.
 
     | Extension | What it adds |
     |---|---|
-    | **Stata Enhanced** (Kyle Barron) | Colours do-file syntax so it is easier to read |
+    | **Stata Enhanced** (Kyle Barron) | Colors do-file syntax so it is easier to read |
 
     VS Code does not run Stata by itself. Write the do-file in VS Code and run it in Stata. Or install a "run in Stata" extension (search the Extensions view for "Stata run").
 
@@ -62,7 +62,7 @@ Open the Extensions view, search for the name, and click **Install**.
     |---|---|
     | **LaTeX Workshop** (James Yu) | Builds your PDF when you save and shows it beside the `.tex` file |
     | **Quarto** (Posit) | Write and preview Quarto documents |
-    | **Rainbow CSV** (mechatroner) | Colours each column of a CSV file |
+    | **Rainbow CSV** (mechatroner) | Colors each column of a CSV file |
     | **Markdown preview** (built in) | No install needed. Press ++cmd+shift+v++ (Mac) or ++ctrl+shift+v++ (Windows). |
 
 ## Run your code

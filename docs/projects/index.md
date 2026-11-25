@@ -8,7 +8,7 @@ Learn by doing. Each project takes one dataset from start to finish, with every 
 
     ---
 
-    Load a survey, clean it, summarise it, chart it and run your first wage regression.
+    Load a survey, clean it, summarize it, chart it and run your first wage regression.
 
     **Level:** First project · **Time:** 45 minutes · **Stata, R, Python**
 

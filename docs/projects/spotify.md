@@ -1,9 +1,9 @@
 # Fun project: Your Spotify listening
 
-Spotify Wrapped only shows what Spotify chooses to show. In this project you download your own listening history and analyse it yourself: your real top artists, when you listen, how your taste changes over time, and which artists you skip the most.
+Spotify Wrapped only shows what Spotify chooses to show. In this project you download your own listening history and analyze it yourself: your real top artists, when you listen, how your taste changes over time, and which artists you skip the most.
 
-!!! info "What you will practise"
-    Requesting your own data · reading JSON · converting time zones · grouping and summarising · bar and line charts · thinking like an economist about revealed preference
+!!! info "What you will practice"
+    Requesting your own data · reading JSON · converting time zones · grouping and summarizing · bar and line charts · thinking like an economist about revealed preference
 
     **Time:** about an hour. **Languages:** R or Python. Pick one in any tab and the whole page follows.
 
@@ -19,7 +19,7 @@ Spotify takes a few days to prepare your data, so request it now and use the sam
 
 Your listening history is in files named `StreamingHistory_music_0.json`, `StreamingHistory_music_1.json` and so on. Older exports call them `StreamingHistory0.json`.
 
-!!! tip "Practise with the sample file"
+!!! tip "Practice with the sample file"
     The sample has six months of made-up listening (all artists are invented) in exactly Spotify's format. Every step below runs on it straight from this website.
 
     [:material-download: Download sample file](data/StreamingHistory_music_0.json){ .md-button download }
@@ -257,13 +257,13 @@ Economists trust what people **do** more than what they **say**. This idea is ca
 
 The `plays >= 50` filter keeps only artists with enough plays to trust the rate. An artist you skipped once out of two plays has a 50% skip rate that means nothing.
 
-**Check:** in the sample, the listener's favourite artists are skipped least. *Hysteresis* is skipped 45% of the time. Is that true for you?
+**Check:** in the sample, the listener's favorite artists are skipped least. *Hysteresis* is skipped 45% of the time. Is that true for you?
 
 ## Go further
 
 Pick one and try it on your own data.
 
-1. **Your top artist each month.** Group by month and take the most-played artist. Does your favourite change?
+1. **Your top artist each month.** Group by month and take the most-played artist. Does your favorite change?
 2. **Binge sessions.** Find the day you listened the most. What were you doing?
 3. **Discovery rate.** For each month, what share of plays were artists you had never played before?
 4. **Night owl score.** What share of your listening happens between midnight and 5 am?

@@ -3,7 +3,7 @@
 SQL (Structured Query Language, often said "sequel") is how you ask a database for data. Most companies, central banks and government agencies store their data in databases, so SQL is one of the most requested skills in economics jobs. It reads almost like English: *select these columns from this table where this is true*.
 
 !!! info "What you will learn"
-    Running SQL with DuckDB, with no server needed · selecting and filtering · summarising by group · CASE · joins · CTEs · window functions · using SQL from R and Python
+    Running SQL with DuckDB, with no server needed · selecting and filtering · summarizing by group · CASE · joins · CTEs · window functions · using SQL from R and Python
 
     Examples use the [wages.csv](../projects/data/wages.csv) practice data from [Project 1](../projects/wages.md).
 
@@ -78,7 +78,7 @@ Conditions combine with `AND`, `OR` and `NOT`. Other useful tests: `state IN ('C
 !!! note "SQL writing style"
     SQL keywords are not case-sensitive, but writing them in CAPITALS makes queries easier to read. Text values go in single quotes: `'CA'`. Comments start with `--`.
 
-## Summarise by group
+## Summarize by group
 
 ```sql
 SELECT state,
@@ -176,7 +176,7 @@ FROM clean
 GROUP BY sex_clean;
 ```
 
-Step 1 cleans the data. Step 2 summarises the clean version. **Check:** women average **$22.76** and men **$25.89**, the same as Project 1.
+Step 1 cleans the data. Step 2 summarizes the clean version. **Check:** women average **$22.76** and men **$25.89**, the same as Project 1.
 
 ## Window functions
 
@@ -211,12 +211,12 @@ FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT
 | Error | Likely cause | Fix |
 |---|---|---|
 | `Referenced column "x" not found` | Typo, or a column alias used in `WHERE` | Check spelling. Repeat the expression in `WHERE` or use a CTE. |
-| `column "x" must appear in the GROUP BY clause` | A selected column is neither grouped nor summarised | Add it to `GROUP BY` or wrap it in `AVG()`, `MAX()` and so on |
+| `column "x" must appear in the GROUP BY clause` | A selected column is neither grouped nor summarized | Add it to `GROUP BY` or wrap it in `AVG()`, `MAX()` and so on |
 | `Parser Error: syntax error at or near` | Missing comma, extra comma before `FROM`, or unmatched bracket | Look just before the position the error names |
 | Text comparison returns nothing | Double quotes around text, or different capitals | Use single quotes. `LOWER(sex) = 'male'` ignores case. |
 | Row count jumps after a join | Duplicate keys in one table | Check keys are unique: `SELECT state, COUNT(*) FROM t GROUP BY state HAVING COUNT(*) > 1` |
 
-## Practise
+## Practice
 
 1. Which age group (under 30, 30–49, 50 and over) has the highest share of union members?
 2. For each state, what share of workers earn over $30 an hour?

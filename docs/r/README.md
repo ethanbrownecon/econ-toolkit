@@ -188,7 +188,7 @@ etable(m1, fe, tex = TRUE, file = "output/tables/table1.tex", replace = TRUE)
 
 ## Charts with ggplot2
 
-Every ggplot has the same three parts: **data**, **aesthetics** (which variable goes on which axis or colour), and **geoms** (what to draw). Add layers with `+`.
+Every ggplot has the same three parts: **data**, **aesthetics** (which variable goes on which axis or color), and **geoms** (what to draw). Add layers with `+`.
 
 ```r
 ggplot(df, aes(x = educ, y = lwage)) +
@@ -211,7 +211,7 @@ ggsave("output/figures/returns.png", width = 7, height = 4, dpi = 300)
 | `geom_boxplot()` | Box plot |
 | `geom_smooth()` | Fitted line or curve |
 
-Put a variable in `aes(colour = ...)` or `aes(fill = ...)` to colour by group.
+Put a variable in `aes(colour = ...)` or `aes(fill = ...)` to color by group.
 
 ## Common errors
 
@@ -229,7 +229,7 @@ Put a variable in `aes(colour = ...)` or `aes(fill = ...)` to colour by group.
 
 [Quarto](https://quarto.org/) mixes text, code and output in one document and exports to PDF, Word or slides. Your numbers and charts update automatically when the data change. See the [Markdown guide](../markdown/README.md#where-markdown-goes-next).
 
-## Practise
+## Practice
 
 - Work through [Project 1](../projects/wages.md) and the [Spotify project](../projects/spotify.md) in R.
 - Read [R for Data Science](https://r4ds.hadley.nz/), the best free introduction.

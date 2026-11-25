@@ -1,6 +1,6 @@
 # Stata
 
-Stata is the most common software in applied economics. It is built for one job, analysing a dataset, and does it with short, readable commands. Most economics papers, replication packages and research-assistant jobs use it.
+Stata is the most common software in applied economics. It is built for one job, analyzing a dataset, and does it with short, readable commands. Most economics papers, replication packages and research-assistant jobs use it.
 
 !!! info "What you will learn"
     The Stata window · do-files · the one syntax pattern behind every command · variables and labels · locals and loops · regressions, panels and IV · publication tables and graphs · fixing common errors
@@ -9,7 +9,7 @@ Stata is the most common software in applied economics. It is built for one job,
 
 ## Get Stata
 
-- **Through your university.** Most economics departments have a licence. Ask your department or IT service. Students can also buy a discounted licence through [Stata's student pricing](https://www.stata.com/order/new/edu/gradplans/student-pricing/).
+- **Through your university.** Most economics departments have a license. Ask your department or IT service. Students can also buy a discounted license through [Stata's student pricing](https://www.stata.com/order/new/edu/gradplans/student-pricing/).
 - **Editions.** BE (Basic Edition) handles most coursework. SE and MP allow more variables and run faster on big data. Code is the same in all three.
 
 ## The Stata window
@@ -43,7 +43,7 @@ command  varlist  if condition  in range,  options
 | `in` | `in 1/100` | Only rows 1 to 100 |
 | `, options` | `, detail` | Extra settings, always after a comma |
 
-So `summarize wage if union == 1, detail` reads as: summarise wage, for union members, with extra detail. Once you know this pattern you can guess how most commands work.
+So `summarize wage if union == 1, detail` reads as: summarize wage, for union members, with extra detail. Once you know this pattern you can guess how most commands work.
 
 !!! note "`=` versus `==`"
     One `=` assigns a value: `gen x = 5`. Two `==` test for equality: `if x == 5`. Mixing them up is the most common beginner error.
@@ -263,7 +263,7 @@ graph export "wage_tenure.png", replace width(2000)
 - [Statalist](https://www.statalist.org/) is the official forum. Read the FAQ before posting, and include your code and output.
 - The [Resources](../resources/index.md#stata) page lists the best free guides.
 
-## Practise
+## Practice
 
 - Work through [Project 1](../projects/wages.md) in Stata.
 - Pick a [Wooldridge dataset](../data/datasets.md#built-into-your-software) and reproduce a textbook regression.

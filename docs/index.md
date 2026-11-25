@@ -67,7 +67,7 @@ Plain-English guides to Stata, R, Python, LaTeX and Git, written for students st
 
     Download your own listening history and find out what you really listen to.
 
-    [:octicons-arrow-right-24: Analyse your music](projects/spotify.md)
+    [:octicons-arrow-right-24: Analyze your music](projects/spotify.md)
 
 -   :material-database-search-outline:{ .lg .middle } **Find data**
 
