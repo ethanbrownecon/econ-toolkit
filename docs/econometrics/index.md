@@ -23,6 +23,9 @@ Each method below is a different strategy for getting around selection bias:
 
 [Logit and probit](logit.md) are not identification strategies. They are models for yes/no outcomes, and you can combine them with the strategies above.
 
+!!! tip "New to the jargon?"
+    The [glossary](glossary.md) defines every term on these pages in plain English.
+
 ## Which method should I use?
 
 Start from your data and your setting, not from the method.

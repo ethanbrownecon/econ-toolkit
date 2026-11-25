@@ -34,6 +34,16 @@ Learn by doing. Each project takes one dataset from start to finish, with every 
 
     [:octicons-arrow-right-24: Start](replication-hansen.md)
 
+-   :material-scale-balance:{ .lg .middle } **Replication: Stand your ground laws**
+
+    ---
+
+    Reproduce Cheng and Hoekstra (2013) with a staggered difference-in-differences design, from two-way fixed effects to Callaway and Sant'Anna.
+
+    **Level:** Intermediate · **Time:** 90 minutes · **Stata, R, Python**
+
+    [:octicons-arrow-right-24: Start](replication-castle.md)
+
 -   :material-spotify:{ .lg .middle } **Fun project: Your Spotify listening**
 
     ---

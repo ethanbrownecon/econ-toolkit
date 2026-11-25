@@ -84,6 +84,7 @@ nav:
       - "Project 1: Wages and education": projects/wages.md
       - "Project 2: The economy in charts": projects/fred.md
       - "Replication: Drunk driving (RD)": projects/replication-hansen.md
+      - "Replication: Stand your ground laws (DiD)": projects/replication-castle.md
       - "Fun project: Spotify": projects/spotify.md
   - Data:
       - Datasets: data/datasets.md
@@ -99,6 +100,7 @@ nav:
       - Synthetic control and SDID: econometrics/synthetic.md
       - Regression discontinuity: econometrics/rd.md
       - Matching and propensity scores: econometrics/matching.md
+      - Glossary: econometrics/glossary.md
   - Coming from:
       - Overview: coming-from/index.md
       - Stata: coming-from/stata.md

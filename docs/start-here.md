@@ -44,12 +44,13 @@ New to all of this? This page gives you an order to work through the site, so yo
 - [ ] Read the [econometrics overview](econometrics/index.md)
 - [ ] Read [linear regression](econometrics/ols.md) and [difference-in-differences](econometrics/did.md), running the code
 - [ ] Read one more method that interests you
+- [ ] Keep the [glossary](econometrics/glossary.md) open for unfamiliar terms
 
 **Goal:** you can explain why a regression coefficient is not always a causal effect, and name a design that does better.
 
 ### Week 6: Do real research
 
-- [ ] Work through the [Hansen replication](projects/replication-hansen.md)
+- [ ] Work through the [Hansen replication](projects/replication-hansen.md) (regression discontinuity) or the [Castle Doctrine replication](projects/replication-castle.md) (difference-in-differences)
 - [ ] Write up your results in a short [LaTeX](latex/README.md) document with one table and one figure exported from code
 
 **Goal:** you have replicated a published paper and written it up like a researcher.

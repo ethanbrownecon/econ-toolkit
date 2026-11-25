@@ -208,5 +208,5 @@ All estimates are negative. They shrink somewhat with narrower windows and more 
 ## Go further
 
 1. **The aggravated threshold.** Washington imposes even harsher penalties at **0.15**. Repeat the analysis at that cutoff. Hansen finds a further deterrent effect.
-2. **Read the paper.** Compare your estimates with Hansen's Table 2 and Figure 3. What does he do differently?
+2. **Read the paper.** Compare your estimates with Hansen's main results tables and figures. What does he do differently?
 3. **More replications.** The [Mixtape data repository](https://github.com/scunning1975/mixtape) has datasets for many famous papers, including the Castle Doctrine study (difference-in-differences) and the NSW job-training experiment (matching).
