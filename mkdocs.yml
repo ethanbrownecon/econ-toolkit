@@ -56,6 +56,10 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 extra:
   generator: false
   social:
@@ -82,6 +86,16 @@ nav:
       - Datasets: data/datasets.md
       - APIs: data/apis.md
       - Web scraping: data/scraping.md
+  - Econometrics:
+      - Overview: econometrics/index.md
+      - Linear regression: econometrics/ols.md
+      - Logit and probit: econometrics/logit.md
+      - Fixed and random effects: econometrics/panel.md
+      - Instrumental variables: econometrics/iv.md
+      - Difference-in-differences: econometrics/did.md
+      - Synthetic control and SDID: econometrics/synthetic.md
+      - Regression discontinuity: econometrics/rd.md
+      - Matching and propensity scores: econometrics/matching.md
   - Coming from:
       - Overview: coming-from/index.md
       - Stata: coming-from/stata.md
@@ -105,6 +119,8 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true

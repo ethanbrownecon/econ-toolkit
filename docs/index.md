@@ -79,6 +79,32 @@ Plain-English guides to Stata, R, Python, LaTeX and Git, written for students st
 
 </div>
 
+## Econometrics and causal inference
+
+<div class="grid cards" markdown>
+
+-   :material-function-variant:{ .lg .middle } **Regression basics**
+
+    ---
+
+    [Linear regression](econometrics/ols.md), [logit and probit](econometrics/logit.md), and [fixed and random effects](econometrics/panel.md).
+
+-   :material-call-split:{ .lg .middle } **Research designs**
+
+    ---
+
+    [Difference-in-differences](econometrics/did.md), [synthetic DiD](econometrics/synthetic.md), [regression discontinuity](econometrics/rd.md) and [instrumental variables](econometrics/iv.md).
+
+-   :material-scale-balance:{ .lg .middle } **Which method?**
+
+    ---
+
+    Match your question and data to the right method, with real examples in Stata, R and Python.
+
+    [:octicons-arrow-right-24: Choose a method](econometrics/index.md)
+
+</div>
+
 ## Already know one tool?
 
 <div class="grid cards" markdown>
