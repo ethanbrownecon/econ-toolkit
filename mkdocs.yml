@@ -85,6 +85,7 @@ nav:
       - "Project 2: The economy in charts": projects/fred.md
       - "Replication: Drunk driving (RD)": projects/replication-hansen.md
       - "Replication: Stand your ground laws (DiD)": projects/replication-castle.md
+      - "Replication: Job training (matching)": projects/replication-lalonde.md
       - "Fun project: Spotify": projects/spotify.md
       - "Fun project: Home advantage": projects/home-advantage.md
   - Data:

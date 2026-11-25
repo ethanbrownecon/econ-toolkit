@@ -124,6 +124,10 @@ When they agree, as here, you can be more confident. When they disagree, look fo
 - **Ignoring overlap.** Treated units with no comparable controls should be dropped or flagged.
 - **Matching on variables affected by the treatment.** Match only on characteristics fixed before treatment.
 
+## Practice
+
+The [LaLonde replication](../projects/replication-lalonde.md) tests matching and weighting against a randomized experiment, and shows why overlap matters.
+
 ## Learn more
 
 - [The Effect, chapter 14: Matching](https://theeffectbook.net/ch-Matching.html)

@@ -50,7 +50,7 @@ New to all of this? This page gives you an order to work through the site, so yo
 
 ### Week 6: Do real research
 
-- [ ] Work through the [Hansen replication](projects/replication-hansen.md) (regression discontinuity) or the [Castle Doctrine replication](projects/replication-castle.md) (difference-in-differences)
+- [ ] Work through the [Hansen replication](projects/replication-hansen.md) (regression discontinuity) the [Castle Doctrine replication](projects/replication-castle.md) (difference-in-differences) or the [LaLonde replication](projects/replication-lalonde.md) (matching)
 - [ ] Write up your results in a short [LaTeX](latex/README.md) document with one table and one figure exported from code
 
 **Goal:** you have replicated a published paper and written it up like a researcher.

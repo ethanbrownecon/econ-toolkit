@@ -44,6 +44,16 @@ Learn by doing. Each project takes one dataset from start to finish, with every 
 
     [:octicons-arrow-right-24: Start](replication-castle.md)
 
+-   :material-briefcase-outline:{ .lg .middle } **Replication: Can we recover an experiment?**
+
+    ---
+
+    LaLonde (1986) and Dehejia and Wahba (1999): compare regression, weighting and matching with a randomized job-training experiment.
+
+    **Level:** Intermediate · **Time:** 90 minutes · **Stata, R, Python**
+
+    [:octicons-arrow-right-24: Start](replication-lalonde.md)
+
 -   :material-spotify:{ .lg .middle } **Fun project: Your Spotify listening**
 
     ---

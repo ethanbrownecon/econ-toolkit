@@ -40,7 +40,7 @@ It is written for **undergraduates and new research assistants**. Every page is 
 | **[Get set up](https://ethanbrownecon.github.io/econ-toolkit/vscode/)** | VS Code, Git & GitHub, command line and Markdown |
 | **[Templates](https://ethanbrownecon.github.io/econ-toolkit/templates/)** | Ready-to-run Stata do-file, R script and Python script templates, plus a standard project folder layout |
 | **[Start here](https://ethanbrownecon.github.io/econ-toolkit/start-here/)** | A six-week learning path, plus paths for a first econometrics class, an RA job, a thesis or a data career |
-| **[Projects](https://ethanbrownecon.github.io/econ-toolkit/projects/)** | Guided projects: a wage regression, macro data from FRED, replications of Hansen (2015) and Cheng and Hoekstra (2013), analyzing your own Spotify history, and testing home advantage with COVID's empty stadiums |
+| **[Projects](https://ethanbrownecon.github.io/econ-toolkit/projects/)** | Guided projects: a wage regression, macro data from FRED, replications of Hansen (2015), Cheng and Hoekstra (2013) and LaLonde (1986), analyzing your own Spotify history, and testing home advantage with COVID's empty stadiums |
 | **[Data](https://ethanbrownecon.github.io/econ-toolkit/data/datasets/)** | Practice and official datasets, plus guides to APIs and web scraping |
 | **[Econometrics](https://ethanbrownecon.github.io/econ-toolkit/econometrics/)** | OLS, logit, fixed and random effects, IV, DiD and event studies, synthetic DiD, regression discontinuity and matching, with Stata, R and Python code, plus a glossary |
 | **[Coming from…](https://ethanbrownecon.github.io/econ-toolkit/coming-from/)** | Line-by-line translation tables: Stata → R/Python, Excel → R/Python and R → Python |

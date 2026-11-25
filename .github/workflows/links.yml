@@ -1,0 +1,52 @@
+name: Check links
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"          # every Monday at 09:00 UTC
+  workflow_dispatch:             # run by hand from the Actions tab
+  pull_request:
+    paths:
+      - "docs/**"
+      - "README.md"
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: true
+          args: >-
+            --no-progress
+            --max-retries 3
+            --timeout 30
+            --accept 200,206,429
+            --exclude-path site
+            --exclude '^https?://(127\.0\.0\.1|localhost)'
+            --exclude 'stata\.com'
+            --exclude 'bls\.gov'
+            --exclude 'census\.gov'
+            --exclude 'worldbank\.org'
+            --exclude 'imf\.org'
+            --exclude 'ilo\.org'
+            --exclude 'stlouisfed\.org'
+            --exclude 'stackoverflow\.com'
+            --exclude 'stackexchange\.com'
+            --exclude 'zillow\.com'
+            --exclude 'tableau\.com'
+            --exclude 'dataverse\.harvard\.edu'
+            --exclude 'psidonline\.isr\.umich\.edu'
+            --exclude 'mostlyharmlesseconometrics\.com'
+            --exclude 'spotify\.com'
+            --exclude 'netflix\.com'
+            --exclude 'kaggle\.com'
+            './README.md'
+            './CONTRIBUTING.md'
+            './docs/**/*.md'
