@@ -1,13 +1,13 @@
 # Coming from Excel
 
-You already know how to do something in a spreadsheet. This page shows you the same thing in R or Python, one line at a time.
+You already know how to do something in a spreadsheet. This page shows you the same thing in Stata, R or Python, one line at a time.
 
 !!! tip "How to use this page"
-    Pick **R** or **Python** in any tab below. Every other tab on the page switches with it. Then find the Excel action or formula in the left column and copy the line on the right.
+    Pick **Stata**, **R** or **Python** in any tab below. Every other tab on the page switches with it. Then find the Excel action or formula in the left column and copy the line on the right.
 
 ## Three things that are different
 
-1. **One line does the whole column.** In Excel you write a formula in one cell and drag it down. In R and Python one line fills the entire column.
+1. **One line does the whole column.** In Excel you write a formula in one cell and drag it down. In Stata, R and Python one line fills the entire column.
 2. **Columns have names, not letters.** You write `price`, not `C2:C500`.
 3. **Your raw data never changes.** A script reads the file, works on a copy, and saves results to a new file. You can rerun every step at any time.
 
@@ -39,6 +39,10 @@ Install the packages once. Then load them at the top of every script.
     import statsmodels.formula.api as smf    # regression
     ```
 
+=== "Stata"
+
+    Stata reads and writes Excel and CSV files with no extra packages. Start every do-file from the [Stata template](../templates/stata.md).
+
 In the tables, `df` is your sheet. `price`, `qty`, `name`, `region` and `date` stand for your own column names.
 
 ## Open and save files
@@ -65,6 +69,17 @@ In the tables, `df` is your sheet. `price`, `qty`, `name`, `region` and `date` s
     | Save as Excel | `df.to_excel("out.xlsx", index=False)` |
     | Save as CSV | `df.to_csv("out.csv", index=False)` |
 
+=== "Stata"
+
+    | Excel | Stata |
+    |---|---|
+    | Open `data.xlsx` | `import excel "data.xlsx", firstrow clear` |
+    | Open one sheet | `import excel "data.xlsx", sheet("Sales") firstrow clear` |
+    | Skip title rows above the headers | `import excel "data.xlsx", cellrange(A4) firstrow clear` |
+    | Open a CSV | `import delimited "data.csv", clear` |
+    | Save as Excel | `export excel "out.xlsx", firstrow(variables) replace` |
+    | Save as CSV | `export delimited "out.csv", replace` |
+
 ## Look at your data
 
 === "R"
@@ -88,6 +103,17 @@ In the tables, `df` is your sheet. `price`, `qty`, `name`, `region` and `date` s
     | Column headers | `df.columns` |
     | Column types | `df.dtypes` |
     | `=COUNTBLANK(B:B)` | `df["price"].isna().sum()` |
+
+=== "Stata"
+
+    | Excel | Stata |
+    |---|---|
+    | Scroll through the sheet | `browse` |
+    | First few rows | `list in 1/5` |
+    | Row count | `count` |
+    | Column headers | `describe, simple` |
+    | Column types | `describe` |
+    | `=COUNTBLANK(B:B)` | `count if missing(price)` |
 
 ## Filter, sort and clean
 
@@ -122,6 +148,22 @@ In the tables, `df` is your sheet. `price`, `qty`, `name`, `region` and `date` s
     | Find and Replace | `df["name"] = df["name"].str.replace("Inc.", "Inc", regex=False)` |
     | Fill blanks with the value above | `df["region"] = df["region"].ffill()` |
     | Delete rows with blanks | `df = df.dropna()` |
+
+=== "Stata"
+
+    | Excel | Stata |
+    |---|---|
+    | Filter: price above 100 | `keep if price > 100 & !missing(price)` |
+    | Filter: region is North or South | `keep if inlist(region, "North", "South")` |
+    | Filter: name contains "Ltd" | `keep if strpos(name, "Ltd") > 0` |
+    | Sort A to Z | `sort name` |
+    | Sort largest to smallest | `gsort -price` |
+    | Delete a column | `drop qty` |
+    | Rename a header | `rename old new` |
+    | Remove Duplicates | `duplicates drop` |
+    | Find and Replace | `replace name = subinstr(name, "Inc.", "Inc", .)` |
+    | Fill blanks with the value above | `replace region = region[_n-1] if missing(region)` |
+    | Delete rows with blanks | `egen nmiss = rowmiss(_all)`<br>`drop if nmiss > 0` |
 
 ## Formulas
 
@@ -161,6 +203,23 @@ Each line makes a new column called `new`. Change the name to whatever you like.
     | `=B3/B2-1` (growth rate) | `df["new"] = df["price"].pct_change()` |
     | `=SUM($B$2:B2)` (running total) | `df["new"] = df["price"].cumsum()` |
 
+=== "Stata"
+
+    | Excel | Stata |
+    |---|---|
+    | `=B2*C2` | `gen new = price * qty` |
+    | `=ROUND(B2, 2)` | `gen new = round(price, 0.01)` |
+    | `=LN(B2)` | `gen new = ln(price)` |
+    | `=IF(B2>100, "High", "Low")` | `gen new = cond(missing(price), "", cond(price > 100, "High", "Low"))` |
+    | `=A2 & " " & B2` | `gen new = first + " " + last` |
+    | `=LEFT(A2, 3)` | `gen new = substr(name, 1, 3)` |
+    | `=TRIM(A2)` | `gen new = stritrim(strtrim(name))` |
+    | `=UPPER(A2)` | `gen new = upper(name)` |
+    | `=YEAR(A2)` | `gen new = year(date)`, or `year(dofc(date))` if `describe` shows `date` as `%tc` |
+    | `=B3-B2` (change from row above) | `gen new = price - price[_n-1]` |
+    | `=B3/B2-1` (growth rate) | `gen new = price / price[_n-1] - 1` |
+    | `=SUM($B$2:B2)` (running total) | `gen new = sum(price)` |
+
 ## Lookups
 
 `VLOOKUP` and `XLOOKUP` become a **join**. `other` is the lookup sheet, and `id` is the column both sheets share.
@@ -183,8 +242,19 @@ Each line makes a new column called `new`. Change the name to whatever you like.
     | Find rows with no match (`#N/A`) | `df[~df["id"].isin(other["id"])]` |
     | Paste one sheet below another | `df = pd.concat([df, other], ignore_index=True)` |
 
+=== "Stata"
+
+    | Excel | Stata |
+    |---|---|
+    | `=XLOOKUP(...)` or `=VLOOKUP(..., FALSE)` | `merge m:1 id using "other.dta", keep(master match) nogenerate` |
+    | Keep only rows that found a match | `merge m:1 id using "other.dta", keep(match) nogenerate` |
+    | Find rows with no match (`#N/A`) | `merge m:1 id using "other.dta"`<br>`list if _merge == 1` |
+    | Paste one sheet below another | `append using "other.dta"` |
+
+In Stata, save the lookup sheet as `other.dta` first: `import excel "other.xlsx", firstrow clear` then `save "other.dta"`.
+
 ??? note "Why did my row count go up?"
-    `VLOOKUP` stops at the first match. A join returns every match. If an `id` appears twice in `other`, that row of `df` appears twice in the result. Make the lookup sheet unique first: `distinct(other, id, .keep_all = TRUE)` in R, `other.drop_duplicates("id")` in Python.
+    `VLOOKUP` stops at the first match. A join returns every match. If an `id` appears twice in `other`, that row of `df` appears twice in the result. Make the lookup sheet unique first: `duplicates drop id, force` in Stata, `distinct(other, id, .keep_all = TRUE)` in R, `other.drop_duplicates("id")` in Python. Stata's `merge m:1` stops with an error if `id` is not unique in `other.dta`, which catches the problem for you.
 
 ## Summaries and pivot tables
 
@@ -216,6 +286,20 @@ Each line makes a new column called `new`. Change the name to whatever you like.
     | Pivot table: regions × years | `pd.pivot_table(df, index="region", columns="year", values="price", aggfunc="sum")` |
     | Pivot table: count of rows | `df["region"].value_counts()` |
 
+=== "Stata"
+
+    | Excel | Stata |
+    |---|---|
+    | `=SUM(B:B)` | `tabstat price, statistics(sum)` |
+    | `=AVERAGE(B:B)` | `summarize price` |
+    | `=MEDIAN(B:B)` | `tabstat price, statistics(median)` |
+    | `=STDEV.S(B:B)` | `summarize price` |
+    | `=COUNTIF(C:C, "North")` | `count if region == "North"` |
+    | `=SUMIF(C:C, "North", B:B)` | `tabstat price if region == "North", statistics(sum)` |
+    | Pivot table: total by region | `tabstat price, by(region) statistics(sum)` |
+    | Pivot table: regions × years | `table region year, statistic(sum price)` |
+    | Pivot table: count of rows | `tabulate region` |
+
 ## Charts and regression
 
 === "R"
@@ -241,5 +325,17 @@ Each line makes a new column called `new`. Change the name to whatever you like.
     | Add a trendline | `sns.regplot(data=df, x="qty", y="price")` |
     | `=CORREL(A:A, B:B)` | `df["qty"].corr(df["price"])` |
     | Data Analysis → Regression | `smf.ols("price ~ qty", data=df).fit().summary()` |
+
+=== "Stata"
+
+    | Excel | Stata |
+    |---|---|
+    | Scatter chart | `scatter price qty` |
+    | Line chart | `line price date, sort` |
+    | Column chart | `graph bar (sum) price, over(region)` |
+    | Histogram | `histogram price` |
+    | Add a trendline | `twoway (scatter price qty) (lfit price qty)` |
+    | `=CORREL(A:A, B:B)` | `correlate qty price` |
+    | Data Analysis → Regression | `regress price qty` |
 
 For clustered standard errors, fixed effects and other econometrics, see [Coming from Stata](stata.md#run-regressions).

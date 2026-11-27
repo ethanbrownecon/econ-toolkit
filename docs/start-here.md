@@ -97,6 +97,7 @@ New to all of this? This page gives you an order to work through the site, so yo
 
 ## When you get stuck
 
+- Work through the [troubleshooting](troubleshooting.md) routine and error tables.
 - Every guide ends with a **Common errors** table. Check it first.
 - Search the exact error message online, in quotes.
 - See [where to ask for help](resources/index.md#where-to-ask-for-help) on the Resources page.

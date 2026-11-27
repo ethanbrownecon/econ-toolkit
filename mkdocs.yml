@@ -117,7 +117,9 @@ nav:
       - Data visualization: data-viz/README.md
       - Machine learning: machine-learning/README.md
       - Reproducible research: reproducible-research/README.md
-  - Resources: resources/index.md
+  - Resources:
+      - Other resources: resources/index.md
+      - Troubleshooting: troubleshooting.md
 
 markdown_extensions:
   - admonition

@@ -131,7 +131,7 @@ Plain-English guides to Stata, R, Python, LaTeX and Git, written for students st
 
     Formulas, filters, `VLOOKUP` and pivot tables, translated into code.
 
-    [:octicons-arrow-right-24: Excel ⇄ R ⇄ Python](coming-from/excel.md)
+    [:octicons-arrow-right-24: Excel ⇄ Stata ⇄ R ⇄ Python](coming-from/excel.md)
 
 -   :material-language-r:{ .lg .middle } **Coming from R**
 
@@ -170,6 +170,12 @@ Plain-English guides to Stata, R, Python, LaTeX and Git, written for students st
     Ready-to-use Stata, R and Python script structures.
 
     [:octicons-arrow-right-24: Read](templates/index.md)
+
+-   :material-lifebuoy:{ .lg .middle } **Troubleshooting**
+
+    A routine for fixing any error, and the most common errors by tool.
+
+    [:octicons-arrow-right-24: Read](troubleshooting.md)
 
 -   :material-bookshelf:{ .lg .middle } **Other resources**
 
