@@ -43,6 +43,7 @@ It is written for **undergraduates and new research assistants**. Every page is 
 | **[Projects](https://ethanbrownecon.github.io/econ-toolkit/projects/)** | Guided projects: a wage regression, macro data from FRED, replications of Hansen (2015), Cheng and Hoekstra (2013) and LaLonde (1986), analyzing your own Spotify history, and testing home advantage with COVID's empty stadiums |
 | **[Data](https://ethanbrownecon.github.io/econ-toolkit/data/datasets/)** | Practice and official datasets, plus guides to APIs and web scraping |
 | **[Econometrics](https://ethanbrownecon.github.io/econ-toolkit/econometrics/)** | OLS, logit, fixed and random effects, IV, DiD and event studies, synthetic DiD, regression discontinuity and matching, with Stata, R and Python code, plus a glossary |
+| **[Fields](https://ethanbrownecon.github.io/econ-toolkit/fields/)** | Twelve fields of economics, each with big questions, data sources, a verified starter project in Stata, R and Python, and project ideas |
 | **[Coming from…](https://ethanbrownecon.github.io/econ-toolkit/coming-from/)** | Line-by-line translation tables: Stata → R/Python, Excel → Stata/R/Python and R → Python |
 | **[Guides](https://ethanbrownecon.github.io/econ-toolkit/latex/)** | LaTeX, R, Stata, Python, SQL, data visualization, machine learning and reproducible research |
 | **[Resources](https://ethanbrownecon.github.io/econ-toolkit/resources/)** | The best free books, courses and documentation, plus a troubleshooting guide |
@@ -60,6 +61,7 @@ It is written for **undergraduates and new research assistants**. Every page is 
 - [x] Beginner project: wages and education
 - [x] Fun project: Spotify listening history
 - [x] Datasets, APIs and web scraping
+- [x] Fields of economics with starter projects
 - [x] Stata
 - [x] R for econometrics
 - [x] Python for data work

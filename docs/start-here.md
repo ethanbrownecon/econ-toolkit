@@ -75,7 +75,7 @@ New to all of this? This page gives you an order to work through the site, so yo
 
 ### "I am writing a senior thesis"
 
-1. Choose a question and a [method](econometrics/index.md#which-method-should-i-use)
+1. Browse the [fields of economics](fields/index.md) for a question and starter data, then choose a [method](econometrics/index.md#which-method-should-i-use)
 2. Find data on the [datasets](data/datasets.md) page, or with [APIs](data/apis.md) and [web scraping](data/scraping.md)
 3. Set up your project with a [template](templates/index.md) and [Git](git-github/README.md)
 4. Make charts with [data visualization](data-viz/README.md) and write in [LaTeX](latex/README.md)

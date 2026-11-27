@@ -113,6 +113,12 @@ Plain-English guides to Stata, R, Python, LaTeX and Git, written for students st
 
 </div>
 
+## Explore a field
+
+Labor, development, health, finance, trade and seven more: each [field page](fields/index.md) has big questions, data sources, a starter project with code, and ideas for your own research.
+
+[Browse the fields](fields/index.md){ .md-button }
+
 ## Already know one tool?
 
 <div class="grid cards" markdown>

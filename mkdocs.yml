@@ -103,6 +103,20 @@ nav:
       - Regression discontinuity: econometrics/rd.md
       - Matching and propensity scores: econometrics/matching.md
       - Glossary: econometrics/glossary.md
+  - Fields:
+      - Overview: fields/index.md
+      - Labor: fields/labor.md
+      - Public: fields/public.md
+      - Development: fields/development.md
+      - Health: fields/health.md
+      - Environmental: fields/environmental.md
+      - Urban and real estate: fields/urban.md
+      - Industrial organization: fields/io.md
+      - Macroeconomics: fields/macro.md
+      - Finance: fields/finance.md
+      - International trade: fields/trade.md
+      - Education: fields/education.md
+      - Political economy and law: fields/political-economy.md
   - Coming from:
       - Overview: coming-from/index.md
       - Stata: coming-from/stata.md

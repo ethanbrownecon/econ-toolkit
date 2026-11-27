@@ -81,6 +81,8 @@ Learn by doing. Each project takes one dataset from start to finish, with every 
 
 ## Ideas for your own project
 
+Every [field page](../fields/index.md) has a starter project with code and more ideas for its area. A few more:
+
 Once you have done one guided project, try one of these with the [datasets](../data/datasets.md) page:
 
 - **Your city in numbers.** Pull your county's unemployment rate and house prices from FRED and chart them since 2000.
